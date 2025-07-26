@@ -1,0 +1,131 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sagar Ganesh-Portfolio</title>
+	<link href="{% static '/css/main.css'  %}" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+</head>
+<body>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3">
+				<div class="card card-body h-100  border-info" id="profile-wrapper">
+					<img id="profile-pic" src="{% static 'images/sagar.jpg' %}" >
+					
+					<hr>
+					<h4>Sagar Ganesh</h4>
+					<p>B.E. in Computer Science | Final Year</p>
+				</div>
+			</div>
+<!--- Main About me --->
+			<div class="col-md-9">
+				<div class="card card-body h-100  border-info">
+					<h4>About Me</h4>
+					<hr>
+					<p>Dedicated and detail-oriented Computer Science student with leadership experience, solid technical skills in Python, Django, React Native, and a strong passion for learning and contributing to meaningful tech projects.</p>
+
+					<h4>Contact</h4>
+					<hr>
+					<p>Gmail: sgk0874@gmail.com</p>
+					<p>Mobile: +91 9036203573</p>
+					<ul class="social-links">
+						<li><img class="social" src="{% static 'images/facebook.png' %}"></li>
+						<li><img class="social" src="{% static 'images/linkedin.png' %}"></li>
+						<li><img class="social" src="{% static 'images/github.jpeg' %}"></li>
+					    <li><img class="social" src="{% static 'images/twitter.png' %}"></li>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+		<!--- Experience & Skills -->
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Professional Experience</h5>
+				<hr>
+				<ul>
+				<p><strong>Intern – ZEPHYR Technologies (2023)</strong></p>
+				<p>Worked on AI-ML/DS, specifically with the Iris Dataset.</p>
+
+				<p><strong>Intern – Quantum Learning (2024–2025)</strong></p>
+				<p>Developed a Budgeting App using React Native and Node.js.</p>
+
+				<p><strong>President – Code Troopers Club (2022–Present)</strong></p>
+				<p>Organized events, mentored students, and shared tech trends.</p>
+			    </ul>		
+			</div>
+			</div>
+
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Technical Skills</h5>
+				<hr>
+				<ul>
+  <li><strong>Languages & Web:</strong> Python, Django, HTML/CSS/JS, MySQL</li>
+  <li><strong>App & Data Tools:</strong> React Native, Node.js, AI Tools, Power BI</li>
+  <li><strong>Fundamentals:</strong> Basics of Java, C/C++, MS Office</li>
+</ul>
+
+				</div>
+			</div>
+		</div>
+		<!-- Projects and Learning -->
+		<br>
+		<div class="row">
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Projects</h5>
+				<hr>
+				<ul>
+  <li><strong>MyBlog Website</strong> — Built with Django</li>
+  <li><strong>Car Rental Online Booking</strong> — Built with using PhP</li>
+  <li><strong>MemeVerse Website</strong> — Built with React Native & Node.js</li>
+  <li><strong>Budgeting App</strong> — Built with React Native</li>
+</ul>
+
+				</div>
+			</div>
+	
+			<div class="col-md-6">
+				<div class="card card-body h-100">
+					<h5>Achievements & Certifications</h5>
+				<hr>
+				<ul>
+					<li>Certified: Cloud Computing, Power BI, AI Tools</li>
+					<li>Participated: Hackathons, Anveshan, Be10x Workshop</li>
+				</ul>
+
+				</div>
+			</div>
+		</div>
+		<!-- Education -->
+	<br>
+	<div class="row">
+		<div class="col-md-12">
+			<div class="card card-body h-100">
+				<h5>Education</h5>
+				<hr>
+				<ul>
+					<li><strong>SMVITM</strong> – B.E. in Computer Science (2021–2025)</li>
+					<br>
+					<li><strong>Mahesh PU College</strong> – 11th & 12th (Completed 2021)</li>
+					<br>
+					<li><strong>SMS English Medium School</strong> – 7th to 10th (Completed 2019)</li>
+					<br>
+					<li><strong>Indian Embassy School, Yemen</strong> – UKG to 6th (Completed 2014)</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+</body>
+</html>
